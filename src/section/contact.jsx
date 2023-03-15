@@ -127,7 +127,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Address</h6>
-                                    <p>Crackington Haven, Cornwall, UK</p>
+                                    <p>Crackington Haven, Bude, Cornwall, UK</p>
                                 </div>
                             </div>
                         </div>
