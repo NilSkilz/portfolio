@@ -56,7 +56,7 @@ const hero = () => {
 				        valueStart={0}
 				        valueEnd={90}>
 				        {value => {
-				          const roundedValue = Math.round(value);
+		
 				          return (
 							<div >
 								<CircularProgressbar
@@ -89,7 +89,7 @@ const hero = () => {
 				        valueStart={0}
 				        valueEnd={80}>
 				        {value => {
-				          const roundedValue = Math.round(value);
+				      
 				          return (
 				            <CircularProgressbar
 				              value={value}
@@ -120,7 +120,7 @@ const hero = () => {
 				        valueStart={0}
 				        valueEnd={95}>
 				        {value => {
-				          const roundedValue = Math.round(value);
+				      
 				          return (
 				            <CircularProgressbar
 				              value={value}

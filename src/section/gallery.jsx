@@ -2,7 +2,7 @@ import {useState, lazy, Suspense} from 'react';
 import Masonry from "react-masonry-component";
 import { createGlobalStyle } from 'styled-components';
 import AOS from 'aos';
-import SplitFlap from '../articles/split-flap.jsx'
+// import SplitFlap from '../articles/split-flap.jsx'
 AOS.init();
 
 const GlobalStyles = createGlobalStyle`

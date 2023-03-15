@@ -7,33 +7,33 @@ AOS.init();
 const image1 ="https://images.unsplash.com/photo-1597798393816-f180596701d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80";
 const contact = () => {
 
-    function sendEmail(e) {
+//     function sendEmail(e) {
 
-        console.log('sending email...')
+//         console.log('sending email...')
 
-    const success = document.getElementById("success");
-    const button = document.getElementById("send_message");
-    const failed = document.getElementById("failed");
-    e.preventDefault();
+//     const success = document.getElementById("success");
+//     const button = document.getElementById("send_message");
+//     const failed = document.getElementById("failed");
+//     e.preventDefault();
 
-    const params = {
-        to_name: '',
-        from_name:"",
-        reply_to:"",
-        message:""
-    }
+//     const params = {
+//         to_name: '',
+//         from_name:"",
+//         reply_to:"",
+//         message:""
+//     }
 
-    emailjs.sendForm('service_ow2y0dh', 'template_i8dn0af', e.target, 'qKKqYdHWYfA8xA5-F')
-      .then((result) => {
-          console.log(result.text);
-          success.classList.add('show');
-          button.classList.add('show');
-          failed.classList.remove('show');
-      }, (error) => {
-          console.log(error.text);
-          failed.classList.add('show');
-      });
-  }
+//     emailjs.sendForm('service_ow2y0dh', 'template_i8dn0af', e.target, 'qKKqYdHWYfA8xA5-F')
+//       .then((result) => {
+//           console.log(result.text);
+//           success.classList.add('show');
+//           button.classList.add('show');
+//           failed.classList.remove('show');
+//       }, (error) => {
+//           console.log(error.text);
+//           failed.classList.add('show');
+//       });
+//   }
 
     return(
         <div className="section bg-top bg-bottom py-0">
