@@ -1,5 +1,5 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import { Parallax } from "react-parallax";
 import AOS from 'aos';
 AOS.init();
